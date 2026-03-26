@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Product — TrendLedger</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Epilogue:wght@200;300;400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <nav class="nav" id="nav">
+    <a href="index.html" class="nav-logo">TrendLedger</a>
+    <div class="nav-links">
+      <a href="product.html" class="active">Product</a>
+      <a href="philosophy.html">Philosophy</a>
+      <a href="pricing.html">Pricing</a>
+      <a href="early-access.html" class="nav-cta">Early Access</a>
+    </div>
+    <button class="nav-toggle" onclick="toggleMenu()">&#9776;</button>
+  </nav>
+
+  <!-- PAGE HERO -->
+  <section class="page-hero">
+    <div class="page-hero-inner">
+      <p class="page-eyebrow fade-up">The Product</p>
+      <h1 class="page-headline fade-up delay-1">Not more data.<br><em>Better decisions.</em></h1>
+    </div>
+  </section>
+
+  <!-- HOW IT WORKS -->
+  <section class="how-it-works">
+    <div class="section-label fade-up">How It Works</div>
+    <div class="steps">
+      <div class="step fade-up">
+        <span class="step-num">I</span>
+        <h3>We read the signals</h3>
+        <p>Social conversations, search trajectories, marketplace velocity, resale demand. Hundreds of live data streams, unified.</p>
+      </div>
+      <div class="step fade-up delay-1">
+        <span class="step-num">II</span>
+        <h3>We score the trends</h3>
+        <p>Our proprietary Trend Velocity Score™ tells you what's rising, what's peaking, and what's already fading.</p>
+      </div>
+      <div class="step fade-up delay-2">
+        <span class="step-num">III</span>
+        <h3>You decide with clarity</h3>
+        <p>A clean dashboard. A clear forecast. Decisions that don't rely on guesswork or gut.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- TVS SECTION -->
+  <section class="tvs-deep" id="tvs">
+    <div class="tvs-deep-inner">
+      <div class="tvs-deep-text fade-up">
+        <p class="section-label">Signature Intelligence</p>
+        <h2>Trend Velocity Score<span class="trademark">™</span></h2>
+        <p class="body-text">Most trend tools tell you what's popular now. That's too late.</p>
+        <p class="body-text">The Trend Velocity Score tells you what's accelerating — before it peaks. So you can produce with conviction, not hope.</p>
+        <div class="score-breakdown">
+          <div class="score-factor fade-up delay-1">
+            <span class="factor-label">Social Momentum</span>
+            <div class="factor-bar"><div class="factor-fill" style="width:82%"></div></div>
+          </div>
+          <div class="score-factor fade-up delay-2">
+            <span class="factor-label">Search Growth</span>
+            <div class="factor-bar"><div class="factor-fill" style="width:67%"></div></div>
+          </div>
+          <div class="score-factor fade-up delay-3">
+            <span class="factor-label">Resale Velocity</span>
+            <div class="factor-bar"><div class="factor-fill" style="width:74%"></div></div>
+          </div>
+          <div class="score-factor fade-up delay-4">
+            <span class="factor-label">Marketplace Signal</span>
+            <div class="factor-bar"><div class="factor-fill" style="width:59%"></div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURES -->
+  <section class="features">
+    <div class="section-label fade-up">What You Get</div>
+    <div class="features-grid">
+      <div class="feature-card fade-up">
+        <div class="feature-icon">&#x25F0;</div>
+        <h3>60-Day Forecast</h3>
+        <p>See demand curves two months ahead. Plan production before trends peak.</p>
+      </div>
+      <div class="feature-card fade-up delay-1">
+        <div class="feature-icon">&#x25A1;</div>
+        <h3>Real-Time Dashboard</h3>
+        <p>Live signals. Clean interface. Everything you need, nothing you don't.</p>
+      </div>
+      <div class="feature-card fade-up delay-2">
+        <div class="feature-icon">&#x25B3;</div>
+        <h3>Trend Tracking</h3>
+        <p>Monitor any category, silhouette, or material across channels simultaneously.</p>
+      </div>
+      <div class="feature-card fade-up delay-3">
+        <div class="feature-icon">&#x25CB;</div>
+        <h3>Marketplace Insights</h3>
+        <p>Resale data, sellthrough signals, and demand gaps — all in one view.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="final-cta">
+    <div class="final-cta-inner fade-up">
+      <h2 class="final-headline">Ready to decide<br>with certainty?</h2>
+      <div class="cta-actions">
+        <a href="early-access.html" class="btn-primary">Get Early Access</a>
+        <a href="pricing.html" class="btn-ghost">View Pricing</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <span class="footer-logo">TrendLedger</span>
+        <p>Demand intelligence for fashion brands.</p>
+      </div>
+      <div class="footer-links">
+        <a href="product.html">Product</a>
+        <a href="philosophy.html">Philosophy</a>
+        <a href="pricing.html">Pricing</a>
+        <a href="early-access.html">Early Access</a>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2025 TrendLedger. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
